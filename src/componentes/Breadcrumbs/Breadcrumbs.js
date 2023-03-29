@@ -12,10 +12,10 @@ const Breadcrumbs = () => {
         <KeyboardArrowRightIcon />
       </div>
       <a
-        href="https://quickgold.es/casa-cambio-madrid/"
-        title="Ir a casa cambio madrid"
+        href="https://quickgold.es/casa-cambio-barcelona/"
+        title="Ir a casa cambio barcelona"
       >
-        Casa Cambio Madrid
+        Casa Cambio Barcelona
       </a>
     </div>
   );

@@ -10,11 +10,14 @@ const SectionDos = ({ dataReverseVenta, dataReverse }) => {
       <div className={styles.contendorBloques}>
         <div className={styles.bloqueIzq}>
           <figure>
-            <img src="/imagen_calc.png" />
+            <img src="/imagen_calc.png" alt="Logo Divisa" />
           </figure>
           <div className={styles.contenedorInfo}>
-            <h2>Cambio de Divisas</h2>
-            <p>Descubre el valor de la moneda que te interesa.</p>
+            <h2>Cambio de Divisas Barcelona</h2>
+            <p>
+              Conoce el tipo de cambio en nuestras<br></br> casas de cambio de
+              moneda en Barcelona.
+            </p>
           </div>
           <div className={styles.contenedorBotones}>
             <button

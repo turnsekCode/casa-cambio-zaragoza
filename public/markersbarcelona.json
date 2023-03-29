@@ -1,0 +1,127 @@
+
+
+{
+    "arrayMarker":[
+        {
+        "id": 1,
+         "tienda": "delicias",
+        "nombreTienda": "Quickgold Madrid (Delicias)",
+        "direccion": "C. del Ferrocarril, 12, 28045 Madrid, España",
+        "telefono": "919 12 83 64",
+        "comoLlegar": "http://bit.ly/3X3XYRj",     
+        "longitude": "-3.6951906",
+        "latitude": "40.4011045",
+        "duration": "1500",
+        "zoom": "11"
+        },
+        {
+        "id": 2,
+         "tienda": "cuatrocaminos",
+        "nombreTienda": "Quickgold Madrid (Cuatro Caminos)",
+        "direccion": "Calle de Bravo Murillo, 117, 28045 Madrid, España",
+        "telefono": "915 98 97 72",
+        "comoLlegar": "http://bit.ly/3EFq1iI",     
+        "longitude": "-3.7039902999999867",
+        "latitude": "40.4488839",
+        "duration": "1500",
+        "zoom": "11"
+        },
+             {
+        "id": 3,
+         "tienda": "tirsodemolina",
+        "nombreTienda": "Quickgold Madrid (Tirso de Molina)",
+        "direccion": "Plaza Tirso de Molina, 12, 28045 Madrid, España",
+        "telefono": "916 13 89 71",
+        "comoLlegar": "http://bit.ly/3tFiXwm",     
+        "longitude": "-3.705431599999997",
+        "latitude": "40.4121929",
+        "duration": "1500",
+        "zoom": "11"
+        },
+             {
+        "id": 4,
+         "tienda": "tetuan",
+        "nombreTienda": "Quickgold Madrid (Tetúan)",
+        "direccion": "Calle de Bravo Murillo, 262, 28045 Madrid, España",
+        "telefono": "911 96 00 08",
+        "comoLlegar": "http://bit.ly/3EgcXPx",     
+        "longitude": "-3.698444600000016",
+        "latitude": "40.4603827",
+        "duration": "1500",
+        "zoom": "11"
+        },
+             {
+        "id": 5,
+         "tienda": "alcala",
+        "nombreTienda": "Quickgold Madrid (Alcala Ventas)",
+        "direccion": "Calle de Alcalá, 184 D, 28045 Madrid, España",
+        "telefono": "913 56 64 01",
+        "comoLlegar": "http://bit.ly/3THXcpZ",     
+        "longitude": "-3.665292000000022",
+        "latitude": "40.429553",
+        "duration": "1500",
+        "zoom": "11"
+        },
+             {
+        "id": 6,
+         "tienda": "quintana",
+        "nombreTienda": "Quickgold Madrid (Quintana)",
+        "direccion": "Calle de Alcalá 351, 28045 Madrid, España",
+        "telefono": "917 00 21 11",
+        "comoLlegar": "http://bit.ly/3hFihUM",     
+        "longitude": "-3.6461429",
+        "latitude": "40.4341911",
+        "duration": "1500",
+        "zoom": "11"
+        },
+                  {
+        "id": 7,
+         "tienda": "sanbernardo",
+        "nombreTienda": "Quickgold Madrid (San Bernardo)",
+        "direccion": "Calle San Bernardo, 24, 28045 Madrid, España",
+        "telefono": "914 45 67 40",
+        "comoLlegar": "http://bit.ly/3V13uCi",     
+        "longitude": "-3.7073656999999685",
+        "latitude": "40.4232377",
+        "duration": "1500",
+        "zoom": "11"
+        },
+                  {
+        "id": 8,
+         "tienda": "guzmanelbueno",
+        "nombreTienda": "Quickgold Madrid (Guzmán el Bueno)",
+        "direccion": "Calle de Guzmán el Bueno, 57, 28045 Madrid, España",
+        "telefono": "912 10 26 67",
+        "comoLlegar": "http://bit.ly/3Ob8Mcl",     
+        "longitude": "-3.713297099999977",
+        "latitude": "40.4351005",
+        "duration": "1500",
+        "zoom": "11"
+        },
+                  {
+        "id": 9,
+         "tienda": "albufera",
+        "nombreTienda": "Quickgold Madrid (Albufera)",
+        "direccion": "Av. Albufera 125, 28045 Madrid, España",
+        "telefono": "917 57 11 93",
+        "comoLlegar": "http://bit.ly/3X3XJpn",     
+        "longitude": "-3.6590415",
+        "latitude": "40.3931151",
+        "duration": "1500",
+        "zoom": "11"
+        },
+                  {
+        "id": 10,
+         "tienda": "usera",
+        "nombreTienda": "Quickgold Madrid (Usera)",
+        "direccion": "Calle Antonio López, 30. Bajo D, 28045 Madrid, España",
+        "telefono": "914 96 56 41",
+        "comoLlegar": "http://bit.ly/3V13uCi",     
+        "longitude": "-3.712925499999999",
+        "latitude": "40.3962949",
+        "duration": "1500",
+        "zoom": "11"
+        }
+    ]
+    
+}
