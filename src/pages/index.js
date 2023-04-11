@@ -14,7 +14,32 @@ import Layout from "@/componentes/Layout/Layout";
 const DynamicMapa = dynamic(() =>
   import(/*componente del mapa script*/ "../componentes/Mapa/Mapa.js")
 );
-
+const schema = {
+  "@context": "http://www.schema.org",
+  "@type": "Organization",
+  name: "Quickgold",
+  url: "https://quickgold.es/casa-cambio-barcelona/",
+  sameAs: [
+    "https://instagram.com/quickgold.es",
+    "https://twitter.com/quickgoldqg",
+    "https://www.facebook.com/quickgold.es",
+  ],
+  logo: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
+  image: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
+  description:
+    "Casas de cambio en Barcelona. Cambia dólares a euros en nuestras oficinas de cambio quickgold. Cambio de moneda extranjera al momento y sin comisiones",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Barcelona",
+    addressRegion: "Cataluña",
+    addressCountry: "España",
+  },
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "+34 900 373 629",
+    contactType: "info@quickgold.es",
+  },
+};
 export default function Home({
   markers,
   menu_list,
@@ -24,6 +49,10 @@ export default function Home({
   return (
     <>
       <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        ></script>
         <title>
           Casas de Cambio en Barcelona | Cambio de Divisas Barcelona
         </title>
