@@ -40,6 +40,24 @@ const schema = {
     contactType: "info@quickgold.es",
   },
 };
+const breadCrumb = {
+  "@context": "https://schema.org/",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Quickgold",
+      item: "https://quickgold.es/",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Casa cambio Barcelona",
+      item: "https://quickgold.es/casa-cambio-barcelona/",
+    },
+  ],
+};
 export default function Home({
   markers,
   menu_list,
@@ -52,6 +70,10 @@ export default function Home({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        ></script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumb) }}
         ></script>
         <title>
           Casas de Cambio en Barcelona | Cambio de Divisas Barcelona
