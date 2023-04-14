@@ -14,7 +14,7 @@ import Map, {
 /*const DynamicBloqueTiendas = dynamic(() =>
   import("../BloqueTiendas/BloqueTiendas")
 );*/
-const Mapa = ({ markers }) => {
+export default function Mapa({ markers }) {
   const marcador = markers.arrayMarker;
   const [viewState, setViewState] = useState({
     longitude: 2.1732882,
@@ -208,6 +208,4 @@ const Mapa = ({ markers }) => {
       </div>
     </section>
   );
-};
-
-export default Mapa;
+}

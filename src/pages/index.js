@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 //import Image from "next/image";
 import dynamic from "next/dynamic";
 import styles from "@/styles/Home.module.css";
@@ -9,10 +10,12 @@ import SectionTres from "@/componentes/Section_3/SectionTres";
 import SectionCuatro from "@/componentes/Section_4/SectionCuatro";
 //import Mapa from "@/componentes/Mapa/Mapa";
 import Layout from "@/componentes/Layout/Layout";
-//import React, { useState, useEffect } from "react";
+import React, { useRef } from "react";
+import { useInView } from "react-intersection-observer";
 
-const DynamicMapa = dynamic(() =>
-  import(/*componente del mapa script*/ "../componentes/Mapa/Mapa.js")
+const DynamicMapa = dynamic(
+  () => import(/*componente del mapa script*/ "../componentes/Mapa/Mapa.js"),
+  { ssr: false, loading: () => <p>Loading...</p> }
 );
 const schema = {
   "@context": "http://www.schema.org",
@@ -64,9 +67,15 @@ export default function Home({
   dataReverseVenta,
   dataReverse,
 }) {
+  const { ref: myRef, inView, entry } = useInView();
   return (
     <>
       <Head>
+        <link
+          rel="stylesheet preload prefetch"
+          href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
+          as="style"
+        ></link>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
@@ -95,7 +104,11 @@ export default function Home({
           />
           <SectionTres />
           <SectionCuatro />
-          <DynamicMapa markers={markers} />
+
+          <div className={styles.contenedorMapaVisible} ref={myRef}>
+            {inView ? <DynamicMapa markers={markers} /> : null}
+          </div>
+
           {/*<Mapa markers={markers} />*/}
         </div>
       </Layout>
