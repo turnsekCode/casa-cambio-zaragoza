@@ -1,8 +1,8 @@
 {
-  "name": "casa-cambio-barcelona",
+  "name": "casa-cambio-vigo",
   "version": "0.1.0",
   "private": true,
-  "home": "quickgold.es/casa-cambio-barcelona",
+  "home": "quickgold.es/casa-cambio-vigo",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",

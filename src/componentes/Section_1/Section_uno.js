@@ -11,12 +11,12 @@ const Section_uno = () => {
     <section className={styles.contenedorSectionUno}>
       <div className={styles.bloqueIzq}>
         <h1>
-          Casas de cambio en <span className={styles.linea}>Barcelona</span>
+          Casas de cambio en <span className={styles.linea}>Vigo</span>
         </h1>
         <p>
-          En nuestras casas de cambio en Barcelona puedes cambiar más de 30
-          monedas extranjeras al momento y sin comisiones. ¿Necesitas cambiar
-          dólares por euros o cualquier otra moneda extranjera? Ven a Quickgold.
+          Nuestra oficina de cambio de divisas en Vigo se encuentra en Rúa de
+          Urzaiz número 80. Visítanos para cambiar moneda extranjera al mejor
+          tipo de cambio de toda la provincia de Pontevedra.
         </p>
         <div className={styles.botones}>
           <Link
@@ -39,16 +39,16 @@ const Section_uno = () => {
       <div className={styles.bloqueDer}>
         {width <= 610 ? (
           <img
-            src="/barcelona_mobil.webp"
-            alt="Casas de cambio Barcelona"
+            src="/vigo_mobil.webp"
+            alt="Casas de cambio vigo"
             className={styles.madridMobil}
             width={290}
             height={220}
           />
         ) : (
           <img
-            src="/barcelona.webp"
-            alt="Casas de cambio Barcelona"
+            src="/vigo.webp"
+            alt="Casas de cambio vigo"
             className={styles.vector}
             width={480}
             height={364}

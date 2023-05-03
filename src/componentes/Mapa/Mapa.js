@@ -17,18 +17,18 @@ import Map, {
 export default function Mapa({ markers }) {
   const marcador = markers.arrayMarker;
   const [viewState, setViewState] = useState({
-    longitude: 2.1732882,
-    latitude: 41.3977098,
-    zoom: 11,
+    longitude: -8.713836,
+    latitude: 42.2332548,
+    zoom: 13,
     cooperativeGestures: true,
   });
   const mapRef = useRef();
   const resetMap = () => {
     setShowPopup(false);
     mapRef.current?.flyTo({
-      center: [2.1732882, 41.3977098],
+      center: [-8.713836, 42.2332548],
       duration: 2000,
-      zoom: 11,
+      zoom: 13,
     });
   };
   const [showPopup, setShowPopup] = useState(null);
@@ -65,7 +65,7 @@ export default function Mapa({ markers }) {
     mapRef.current?.flyTo({
       center: { lng: marker.longitude, lat: marker.latitude },
       duration: 1500,
-      zoom: 11,
+      zoom: marker.zoom,
     });
     setActiveId(marker.id);
   };
@@ -75,7 +75,7 @@ export default function Mapa({ markers }) {
       <div className={styles.contenedorbloqueIzq}>
         <div className={styles.bloqueIzq}>
           <h2>
-            Casas de cambio en <span className={styles.linea}>Barcelona</span>
+            Casas de cambio en <span className={styles.linea}>Vigo</span>
           </h2>
           <p>
             Tiendas Quickgold: <span>{numeroDeTiendas.id}</span>
@@ -100,7 +100,7 @@ export default function Mapa({ markers }) {
                   toggleTab();
                   onSelectMarker(marker);
                 }}
-                to="contenedorMapa"
+                to="contenedorMapa2"
                 smooth={true}
                 offset={-110}
                 spy={true}
@@ -112,7 +112,7 @@ export default function Mapa({ markers }) {
                 <p>{marker.direccion}</p>
                 <p>Telefono: {marker.telefono}</p>
                 <Link
-                  to="contenedorMapa"
+                  to="contenedorMapa2"
                   smooth={true}
                   offset={-110}
                   spy={true}
@@ -127,7 +127,7 @@ export default function Mapa({ markers }) {
         </div>
         {/*<BloqueTiendas />*/}
       </div>
-      <div className={styles.bloqueDer} id="contenedorMapa">
+      <div className={styles.bloqueDer} id="contenedorMapa2">
         <Map
           onStyleLoad
           ref={mapRef}

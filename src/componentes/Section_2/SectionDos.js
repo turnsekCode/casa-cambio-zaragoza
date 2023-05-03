@@ -13,10 +13,10 @@ const SectionDos = ({ dataReverseVenta, dataReverse }) => {
             <img src="/imagen_calc.png" alt="Logo Divisa" />
           </figure>
           <div className={styles.contenedorInfo}>
-            <h2>Cambio de Divisas Barcelona</h2>
+            <h2>Cambio de Divisas Vigo</h2>
             <p>
               Conoce el tipo de cambio en nuestras<br></br> casas de cambio de
-              moneda en Barcelona.
+              moneda en Vigo.
             </p>
           </div>
           <div className={styles.contenedorBotones}>

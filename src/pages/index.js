@@ -21,7 +21,7 @@ const schema = {
   "@context": "http://www.schema.org",
   "@type": "Organization",
   name: "Quickgold",
-  url: "https://quickgold.es/casa-cambio-barcelona/",
+  url: "https://quickgold.es/casa-cambio-vigo/",
   sameAs: [
     "https://instagram.com/quickgold.es",
     "https://twitter.com/quickgoldqg",
@@ -30,11 +30,11 @@ const schema = {
   logo: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
   image: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
   description:
-    "Casas de cambio en Barcelona. Cambia dólares a euros en nuestras oficinas de cambio quickgold. Cambio de moneda extranjera al momento y sin comisiones",
+    "Cambiar divisa en Vigo es fácil y rápido. Tenemos más de 30 monedas disponibles para que cambies moneda extranjera en solo unos minutos.",
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Barcelona",
-    addressRegion: "Cataluña",
+    addressLocality: "Vigo",
+    addressRegion: "Vigo",
     addressCountry: "España",
   },
   contactPoint: {
@@ -56,8 +56,8 @@ const breadCrumb = {
     {
       "@type": "ListItem",
       position: 2,
-      name: "Casa cambio Barcelona",
-      item: "https://quickgold.es/casa-cambio-barcelona/",
+      name: "Casa cambio vigo",
+      item: "https://quickgold.es/casa-cambio-vigo/",
     },
   ],
 };
@@ -84,12 +84,10 @@ export default function Home({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumb) }}
         ></script>
-        <title>
-          Casas de Cambio en Barcelona | Cambio de Divisas Barcelona
-        </title>
+        <title>Casas de Cambio en Vigo | Cambio de Divisas Vigo</title>
         <meta
           name="description"
-          content="Casas de cambio en Barcelona. Cambia dólares a euros en nuestras oficinas de cambio quickgold. Cambio de moneda extranjera al momento y sin comisiones. "
+          content="Cambiar divisa en Vigo es fácil y rápido. Tenemos más de 30 monedas disponibles para que cambies moneda extranjera en solo unos minutos."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
@@ -119,7 +117,7 @@ export default function Home({
     </>
   );
 }
-const idTienda = "barcelona";
+const idTienda = "vigo";
 //const idWp = "13848";
 export async function getStaticProps() {
   /*const response = await fetch(

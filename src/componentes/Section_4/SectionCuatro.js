@@ -8,26 +8,22 @@ const SectionCuatro = () => {
       <div className={styles.bloqueIzq}>
         <h2>
           Cambia moneda extranjera en {""}
-          <span className={styles.linea}>Barcelona</span>
+          <span className={styles.linea}>Vigo</span>
         </h2>
         <p>
-          En las oficinas de cambio de divisa quickgold en Barcelona puedes
-          cambiar dólares a euros en tan solo unos minutos. Recuerda llevar el
-          dinero que necesitas cambiar y, al instante, recibirás la moneda
-          extranjera que necesites en efectivo. Además, ofrecemos mejoras en la
-          tasa de cambio por cantidad, por lo tanto siempre estamos dispuesto a
-          escuchar tus necesidades para ofrecerte el mejor tipo de cambio de la
-          ciudad de Barcelona. Olvídate de cambiar divisa en el aeropuerto o en
-          el banco, en quickgold ofrecemos las mejores condiciones y ponemos a
-          tu disposición diferentes casas de cambio para estar siempre cerca de
-          ti.
+          ¿Estás en Vigo y necesitas cambiar divisa? En nuestra oficina de
+          cambio obtendrás el mejor tipo de cambio de toda la ciudad. Consigue
+          euros en efectivo para tus compras o transacciones internacionales.
+          Recuerda que realizamos mejoras en el tipo de cambio de divisa por
+          cantidad, pregúntanos y estaremos encantados de atenderte sin
+          compromiso.
         </p>
       </div>
       <div className={styles.bloqueDer}>
         <img
           loading="lazy"
-          src="/casa-cambio-barcelona.webp"
-          alt="Cambiar Dólares a Euros Barcelona"
+          src="/casa-cambio-vigo.webp"
+          alt="Cambiar Dólares a Euros vigo"
           className={styles.Image}
           width={480}
           height={390}
