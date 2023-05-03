@@ -32,7 +32,7 @@ const SectionDos = ({ dataReverseVenta, dataReverse }) => {
             >
               QUIERO EUROS
             </button>
-            <button
+            {/*<button
               className={
                 switched
                   ? `${styles.botonVender} ${styles.botonActivo}`
@@ -43,7 +43,7 @@ const SectionDos = ({ dataReverseVenta, dataReverse }) => {
               }}
             >
               TENGO EUROS
-            </button>
+            </button>*/}
           </div>
         </div>
         {switched ? (
