@@ -110,7 +110,7 @@ export default function Mapa({ markers }) {
               </Link>
               <div className={styles.tienda}>
                 <p>{marker.direccion}</p>
-                <p>Telefono: {marker.telefono}</p>
+                <p>Teléfono: {marker.telefono}</p>
                 <Link
                   to="contenedorMapa2"
                   smooth={true}
