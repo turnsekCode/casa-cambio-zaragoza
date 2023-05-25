@@ -11,7 +11,7 @@ const Section_uno = () => {
     <section className={styles.contenedorSectionUno}>
       <div className={styles.bloqueIzq}>
         <h1>
-          Casas de cambio en <span className={styles.linea}>Vigo</span>
+          Casas de cambio <span className={styles.linea}>Vigo</span>
         </h1>
         <p>
           Nuestra oficina de cambio de divisas en Vigo se encuentra en Rúa de
