@@ -17,18 +17,21 @@ import Map, {
 export default function Mapa({ markers }) {
   const marcador = markers.arrayMarker;
   const [viewState, setViewState] = useState({
-    longitude: -8.713836,
-    latitude: 42.2332548,
-    zoom: 13,
+    longitude: markers?.markerInicial[0].longitude,
+    latitude: markers?.markerInicial[0].latitude,
+    zoom: markers?.markerInicial[0].zoom,
     cooperativeGestures: true,
   });
   const mapRef = useRef();
   const resetMap = () => {
     setShowPopup(false);
     mapRef.current?.flyTo({
-      center: [-8.713836, 42.2332548],
+      center: [
+        markers.markerInicial[0].longitude,
+        markers.markerInicial[0].latitude,
+      ],
       duration: 2000,
-      zoom: 13,
+      zoom: markers?.markerInicial[0].zoom,
     });
   };
   const [showPopup, setShowPopup] = useState(null);
@@ -112,6 +115,10 @@ export default function Mapa({ markers }) {
                 <p>{marker.direccion}</p>
                 <p>Teléfono: {marker.telefono}</p>
                 <Link
+                  onClick={() => {
+                    toggleTab();
+                    onSelectMarker(marker);
+                  }}
                   to="contenedorMapa2"
                   smooth={true}
                   offset={-110}
@@ -185,7 +192,6 @@ export default function Mapa({ markers }) {
                       title="Cómo llegar"
                       href={showInfo.comoLlegar}
                       rel="noreferrer"
-                      ƒ
                       className={styles.boton_como_llegar}
                     >
                       Cómo llegar

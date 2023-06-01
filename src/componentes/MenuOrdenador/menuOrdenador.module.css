@@ -13,7 +13,7 @@
     .headersticky {
         position: fixed;
         top: 0;
-        background: #0692D0;
+        background: #036F9A;
         width: 100%;
     }
 
@@ -96,7 +96,7 @@
         position: absolute;
         top: 50px;
         left: -611px;
-        background: #213E58;
+        background: #0F2D45;
         height: 0;
         overflow-x: hidden;
         transition: 0.08s;
@@ -153,7 +153,7 @@
         position: absolute;
         top: 50px;
         left: -30px;
-        background: #213E58;
+        background: #0F2D45;
         height: 0;
         overflow: hidden;
         transition: 0.1s;
