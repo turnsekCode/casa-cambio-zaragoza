@@ -291,9 +291,9 @@ const Breadcrumbs = ()=>{
                 ]
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                href: "https://quickgold.es/casa-cambio-vigo/",
-                title: "Ir a casa cambio vigo",
-                children: "Casa Cambio vigo"
+                href: "https://quickgold.es/casa-cambio-zaragoza/",
+                title: "Ir a casa cambio zaragoza",
+                children: "Casa Cambio Zaragoza"
             })
         ]
     });
@@ -1361,12 +1361,12 @@ const Section_uno = ()=>{
                             "Casas de cambio en ",
                             /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                 className: (section_uno_module_default()).linea,
-                                children: "Vigo"
+                                children: "Zaragoza"
                             })
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        children: "Nuestra oficina de cambio de divisas en Vigo se encuentra en R\xfaa de Urzaiz n\xfamero 80. Vis\xedtanos para cambiar moneda extranjera al mejor tipo de cambio de toda la provincia de Pontevedra."
+                        children: "Visita nuestro money exchange en Zaragoza y cambia d\xf3lares por euros o cualquier otra moneda al instante. Consigue el mejor tipo de cambio en nuestra oficina de cambio en Zaragoza."
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: (section_uno_module_default()).botones,
@@ -1396,14 +1396,14 @@ const Section_uno = ()=>{
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: (section_uno_module_default()).bloqueDer,
                 children: width <= 610 ? /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                    src: "/vigo_mobil.webp",
-                    alt: "Casas de cambio vigo",
+                    src: "/divisa-mobil.webp",
+                    alt: "Casas de cambio Zaragoza",
                     className: (section_uno_module_default()).madridMobil,
                     width: 290,
                     height: 220
                 }) : /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                    src: "/vigo.webp",
-                    alt: "Casas de cambio vigo",
+                    src: "/divisa.webp",
+                    alt: "Casas de cambio Zaragoza",
                     className: (section_uno_module_default()).vector,
                     width: 480,
                     height: 364
@@ -1452,7 +1452,7 @@ var ImportExport_default = /*#__PURE__*/__webpack_require__.n(ImportExport_names
 
 //import { useFetchData } from "../../utilities/DataTiendas";
 const Comprar = ()=>{
-    const nombreCiudad = "vigo";
+    const nombreCiudad = "zaragoza";
     const [data, setData] = (0,external_react_.useState)([]);
     const [loading, setLoading] = (0,external_react_.useState)(null);
     (0,external_react_.useEffect)(()=>{
@@ -1877,7 +1877,7 @@ var section_2_module_default = /*#__PURE__*/__webpack_require__.n(section_2_modu
 
 //import { useFetchData } from "../../utilities/DataTiendas";
 const Vender_Comprar = ()=>{
-    const nombreCiudad = "vigo";
+    const nombreCiudad = "zaragoza";
     const [data, setData] = (0,external_react_.useState)([]);
     const [loading, setLoading] = (0,external_react_.useState)(null);
     (0,external_react_.useEffect)(()=>{
@@ -2316,13 +2316,13 @@ const SectionDos = ()=>{
                             className: (section_2_module_default()).contenedorInfo,
                             children: [
                                 /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                                    children: "Cambio de Divisas Vigo"
+                                    children: "Cambio de Divisas Zaragoza"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                                     children: [
                                         "Conoce el tipo de cambio en nuestras",
                                         /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                        " casas de cambio de moneda en Vigo."
+                                        " casas de cambio de moneda en Zaragoza."
                                     ]
                                 })
                             ]
@@ -2380,7 +2380,7 @@ const SectionTres = ()=>{
                                     "\xbfNecesitas una oficina de cambio en",
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                         className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().linea),
-                                        children: " Vigo?"
+                                        children: " Zaragoza?"
                                     })
                                 ]
                             }),
@@ -2388,11 +2388,11 @@ const SectionTres = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
                                         children: [
-                                            "Quickgold es tu Money Exchange cerca de ti en la ciudad de Vigo. Cambia d\xf3lares por euros en tan solo unos minutos y ll\xe9vate tu dinero en efectivo.",
+                                            "Actualmente tenemos 2 casas de cambio en Zaragoza. Te esperamos para cambiar tu divisa y llevarte euros en efectivo y al instante.",
                                             " "
                                         ]
                                     }),
-                                    "Tenemos m\xe1s de 30 divisas disponibles, desde d\xf3lares a libras pasando por dirhams, reales y pesos, t\xfa eliges la divisa que necesitas cambiar."
+                                    "Podr\xe1s cambiar d\xf3lares por euros, libras, pesos, reales, dirhams, tenemos m\xe1s de 30 monedas extranjeras disponibles para el cambio."
                                 ]
                             })
                         ]
@@ -2404,7 +2404,7 @@ const SectionTres = ()=>{
                                 children: "\xbfC\xf3mo cambiar divisa?"
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                children: "Cambiar divisa en Vigo es muy f\xe1cil y r\xe1pido. Ven a nuestra casa de cambio y trae tu divisa, nosotros te daremos euros en efectivo al momento y siempre con la mejor tasa de cambio de la ciudad."
+                                children: "Cambiar divisa en Quickgold Zaragoza es muy sencillo. Visita nuestra casa de cambio, ind\xedcanos la divisa qu\xe9 quieres cambiar y al momento podr\xe1s llevarte euros al mejor tipo de cambio en la capital aragonesa."
                             })
                         ]
                     })
@@ -2415,7 +2415,7 @@ const SectionTres = ()=>{
                     "Cambiar divisa en ",
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                         className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().linea),
-                        children: "Vigo"
+                        children: "Zaragoza"
                     }),
                     " es muy f\xe1cil"
                 ]
@@ -2496,12 +2496,12 @@ const SectionCuatro = ()=>{
                             "",
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                 className: (_sectionCuatro_module_css__WEBPACK_IMPORTED_MODULE_2___default().linea),
-                                children: "Vigo"
+                                children: "Zaragoza"
                             })
                         ]
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                        children: "\xbfEst\xe1s en Vigo y necesitas cambiar divisa? En nuestra oficina de cambio obtendr\xe1s el mejor tipo de cambio de toda la ciudad. Consigue euros en efectivo para tus compras o transacciones internacionales. Recuerda que realizamos mejoras en el tipo de cambio de divisa por cantidad, preg\xfantanos y estaremos encantados de atenderte sin compromiso."
+                        children: "Tanto si vives en Zaragoza como si est\xe1s visitando Bas\xedlica de Nuestra Se\xf1ora del Pilar, tienes la suerte de tener una casa de cambio Quickgold para que cambiar divisa sea un proceso sencillo y r\xe1pido. Recuerda que en nuestra casa de cambio en Zaragoza realizamos mejoras en el tipo de cambio por cantidad. Ind\xedcanos tus necesidades y, sin compromiso, te asesoraremos y te ofreceremos el mejor tipo de cambio de la ciudad. Cambia moneda extranjera en Zaragoza de manera f\xe1cil y r\xe1pida."
                     })
                 ]
             }),
@@ -2509,8 +2509,8 @@ const SectionCuatro = ()=>{
                 className: (_sectionCuatro_module_css__WEBPACK_IMPORTED_MODULE_2___default().bloqueDer),
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                     loading: "lazy",
-                    src: "/casa-cambio-vigo.webp",
-                    alt: "Cambiar D\xf3lares a Euros vigo",
+                    src: "/casa-cambio-zaragoza.webp",
+                    alt: "Cambiar D\xf3lares a Euros zaragoza",
                     className: (_sectionCuatro_module_css__WEBPACK_IMPORTED_MODULE_2___default().Image),
                     width: 480,
                     height: 390
@@ -2585,7 +2585,7 @@ const schema = {
     "@context": "http://www.schema.org",
     "@type": "Organization",
     name: "Quickgold",
-    url: "https://quickgold.es/casa-cambio-vigo/",
+    url: "https://quickgold.es/casa-cambio-zaragoza/",
     sameAs: [
         "https://instagram.com/quickgold.es",
         "https://twitter.com/quickgoldqg",
@@ -2593,11 +2593,11 @@ const schema = {
     ],
     logo: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
     image: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
-    description: "Cambiar divisa en Vigo es f\xe1cil y r\xe1pido. Tenemos m\xe1s de 30 monedas disponibles para que cambies moneda extranjera en solo unos minutos.",
+    description: "\xbfNecesitas cambiar divisa en Zaragoza? Visita nuestra casa de cambio y cambia moneda extranjera al momento y sin comisiones. Solo en Quickgold.",
     address: {
         "@type": "PostalAddress",
-        addressLocality: "Vigo",
-        addressRegion: "Vigo",
+        addressLocality: "Zaragoza",
+        addressRegion: "Zaragoza",
         addressCountry: "Espa\xf1a"
     },
     contactPoint: {
@@ -2619,8 +2619,8 @@ const breadCrumb = {
         {
             "@type": "ListItem",
             position: 2,
-            name: "Casa cambio vigo",
-            item: "https://quickgold.es/casa-cambio-vigo/"
+            name: "Casa cambio zaragoza",
+            item: "https://quickgold.es/casa-cambio-zaragoza/"
         }
     ]
 };
@@ -2648,11 +2648,11 @@ function Home({ markers , menu_list  }) {
                         }
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("title", {
-                        children: "Casas de Cambio en Vigo | Cambio de Divisas Vigo"
+                        children: "Casas de Cambio en Zaragoza | Cambio de Divisas Zaragoza"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         name: "description",
-                        content: "Cambiar divisa en Vigo es f\xe1cil y r\xe1pido. Tenemos m\xe1s de 30 monedas disponibles para que cambies moneda extranjera en solo unos minutos."
+                        content: "\xbfNecesitas cambiar divisa en Zaragoza? Visita nuestra casa de cambio y cambia moneda extranjera al momento y sin comisiones. Solo en Quickgold."
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         name: "viewport",
@@ -2688,7 +2688,7 @@ function Home({ markers , menu_list  }) {
         ]
     });
 }
-const idTienda = "vigo";
+const idTienda = "zaragoza";
 //const idWp = "13848";
 async function getStaticProps() {
     /*const response = await fetch(

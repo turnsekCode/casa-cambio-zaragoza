@@ -1,8 +1,8 @@
 {
-  "name": "casa-cambio-vigo",
+  "name": "casa-cambio-zaragoza",
   "version": "0.1.0",
   "private": true,
-  "home": "quickgold.es/casa-cambio-vigo",
+  "home": "quickgold.es/casa-cambio-zaragoza",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
